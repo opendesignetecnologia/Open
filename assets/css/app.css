@@ -23,11 +23,11 @@ a.btn.primary {
     transition: .3s;
 }
 #full{
-    background-image: url(../img/full-desktop.png);
-    background-position: center;
+    /* background-image: url(../img/full-desktop.png); */
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 90vh;
     display: flex;
 }
 #sobre{
@@ -58,7 +58,7 @@ header {
     width: 100%;
 }
 a.navbar-brand {
-    width: 275px;
+    width:25%;
 }
 
 h1, h2{
