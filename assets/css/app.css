@@ -39,10 +39,26 @@ a.btn.primary {
     display: flex;
 }
 
+@media(max-width:768px){
+    ul.nav.justify-content-end {
+        display: flex;
+        flex-direction: column;
+        background: WHITE;
+        margin: 0;
+        padding: 20px;
+        border-radius:10px ;
+    }
+    .nav-link{
+        color: black;
+    }
+}
 
 header {
     position: absolute;
     width: 100%;
+}
+a.navbar-brand {
+    width: 275px;
 }
 
 h1, h2{
