@@ -35,7 +35,6 @@ a.btn.primary {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
     display: flex;
 }
 
@@ -50,6 +49,9 @@ a.btn.primary {
     }
     .nav-link{
         color: black;
+    }
+    footer .nav-link {
+        color: white;
     }
 }
 
